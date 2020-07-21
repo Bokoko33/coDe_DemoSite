@@ -23,6 +23,8 @@
 body {
   font-family: "Genshin";
   color: #231300;
+  position: relative;
+  height: 100vh;
 }
 
 p {
@@ -181,7 +183,7 @@ header {
 }
 
 .page-wrapper {
-  padding: 200px 0 120px;
+  padding-top: 20vh;
   text-align: center;
 }
 @media screen and (max-width: 480px) {
@@ -192,7 +194,7 @@ header {
 
 .content-title {
   text-align: center;
-  margin-bottom: 108px;
+  margin-bottom: 10vh;
 }
 @media screen and (max-width: 480px) {
   .content-title {
@@ -221,7 +223,7 @@ h1 {
 }
 
 .taku-intro {
-  margin-bottom: 56px;
+  margin-bottom: 5vh;
 }
 @media screen and (max-width: 480px) {
   .taku-intro {
@@ -233,7 +235,7 @@ h1 {
 .page-wrapper img {
   width: 10px;
   display: block;
-  margin: auto auto 56px auto;
+  margin: auto auto 5vh auto;
 }
 
 .page-wrapper a {
@@ -267,7 +269,11 @@ footer {
   justify-content: flex-end;
   padding-right: 10%;
 
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 /* .scroll-top {
@@ -300,12 +306,6 @@ footer {
 @media screen and (max-width: 480px) {
   footer {
     height: 80px;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
   }
 
   .copyright {
