@@ -181,12 +181,12 @@ header {
 }
 
 .page-wrapper {
-  padding-top: 200px;
+  padding: 200px 0 120px;
   text-align: center;
 }
 @media screen and (max-width: 480px) {
   .page-wrapper {
-    padding-top: 130px;
+    padding: 130px 0 0;
   }
 }
 
@@ -267,11 +267,7 @@ footer {
   justify-content: flex-end;
   padding-right: 10%;
 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  position: relative;
 }
 
 /* .scroll-top {
@@ -304,6 +300,12 @@ footer {
 @media screen and (max-width: 480px) {
   footer {
     height: 80px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
   .copyright {
