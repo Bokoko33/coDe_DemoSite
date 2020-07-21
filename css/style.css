@@ -39,11 +39,6 @@ header {
   z-index: 2;
 }
 
-h2 {
-  font-size: 40px;
-  margin-bottom: 6px;
-}
-
 .header-logo-wrap {
   width: 80px;
 }
@@ -84,7 +79,7 @@ h2 {
 .main-visual {
   width: 100%;
   height: calc(100vh - 80px);
-  overflow: hidden;
+  /* overflow: hidden; */
 
   padding-top: 80px;
   height: 100vh;
@@ -160,6 +155,11 @@ h2 {
 
 .catch-copy-text {
   line-height: 2;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 6px;
 }
 
 .what {
