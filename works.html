@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 文字コード設定 -->
+    <meta charset="UTF-8" />
+
+    <!-- いろんなデバイス幅で表示崩れが起きないようにするやつ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ページ情報 -->
+    <meta
+      name="description"
+      content="卓展2020 coDeのHTML/CSS勉強会で作るでもサイトだよ！！"
+    />
+
+    <title>coDeデモサイト-works</title>
+    <link rel="stylesheet" href="css/works.css" />
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <a class="header-logo-wrap" href="index.html">
+        <img src="img/logo.png" alt="ロゴイメージ" />
+      </a>
+      <ul class="header-nav-list">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="works.html">Works</a>
+        </li>
+        <li>
+          <a href="about_TAKU-TEN.html">About TAKU-TEN</a>
+        </li>
+      </ul>
+
+      <!-- スマホ用 -->
+      <div class="header-sp-nav">
+        <div class="header-sp-nav-img-wrap">
+          <img src="img/logo.png" alt="ロゴイメージ" />
+        </div>
+        <ul class="header-sp-nav-list">
+          <li>
+            <a href="index.html">
+              Home
+              <img src="img/right.png" alt="右矢印" />
+            </a>
+          </li>
+          <li>
+            <a href="works.html">
+              Works
+              <img src="img/right.png" alt="右矢印" />
+            </a>
+          </li>
+          <li>
+            <a href="about_TAKU-TEN.html"
+              >About TAKU-TEN
+              <img src="img/right.png" alt="右矢印" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-sp-icon-wrap">
+        <div class="header-sp-icon-bar1"></div>
+        <div class="header-sp-icon-bar2"></div>
+        <div class="header-sp-icon-bar3"></div>
+      </div>
+      <!-- ここまで -->
+    </header>
+
+    <section class="page-wrapper">
+      <div class="content-title">
+        <h1>Works</h1>
+        <p>過去の制作事例を紹介します</p>
+      </div>
+      <section class="works-wrapper">
+        <h2>webアプリ</h2>
+        <div class="works-content">
+          <div class="wc-img">
+            <img src="./img/works-sp-1.png" alt="" />
+          </div>
+          <div class="wc-desc">
+            <h3>monager</h3>
+            <p>
+              朝のタスク管理アプリ。<br />
+              曜日ごとに違う朝のタスクを管理することで快適で効率的な時間を過ごすことを目的とする。ポイントは曜日ごとにタスクテンプレートを作成できます。
+              コンセプトはあなたの朝のマネージャー。
+            </p>
+          </div>
+        </div>
+        <div class="works-content">
+          <div class="wc-img">
+            <img src="./img/works-sp-2.png" alt="" />
+          </div>
+          <div class="wc-desc">
+            <h3>私の写真館</h3>
+            <p>
+              写真から人(の顔)を集めてじいさんを育成するゲームアプリ。<br />
+              写真をとると自動で顔を認識して人数が加算されてレベルアップできる(顔認識実装に至らず)。
+              ポイントはレトロなUIデザイン。コンセプトは思い出が集まる。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="works-wrapper">
+        <h2>webサイト</h2>
+        <div class="works-content wc-pc">
+          <div class="wc-img">
+            <img src="./img/works-pc-1.png" alt="" />
+          </div>
+          <div class="wc-desc wc-d-site">
+            <h3>N!</h3>
+            <p>
+              就職活動に向けて制作したポートフォリオサイト。<br />
+              これまでに制作したサービスをわかりやすく伝えるために、LPを参考にしています。説明の文が多いので、単調にならないようイラストも載せました。日々改良を続けています。
+            </p>
+          </div>
+        </div>
+        <div class="works-content wc-pc">
+          <div class="wc-img">
+            <img src="./img/works-pc-2.png" alt="" />
+          </div>
+          <div class="wc-desc wc-d-site">
+            <h3>Identity.</h3>
+            <p>
+              就職活動に向けて制作したポートフォリオサイト。<br />
+              自分の得意な表現でメインビジュアルを作成し、いかに人に興味を持ってもらえるかを重視して作りました。作品を映させるために白をベースにシンプルなデザインにしました。
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <a class="scroll-top" href="#">
+        <img src="img/up.png" />
+        <p>TOPへ戻る</p>
+      </a>
+      <p class="copyright">©︎2020 co:De All Right Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
