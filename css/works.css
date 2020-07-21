@@ -135,7 +135,7 @@ header {
 
   .header-sp-nav-img-wrap {
     width: 100px;
-    margin: 140px auto 100px;
+    margin: 15vh auto 10vh;
   }
 
   .header-sp-nav-img-wrap img {
@@ -143,8 +143,8 @@ header {
   }
 
   .header-sp-icon-wrap {
-    width: 30px;
-    height: 40%;
+    width: 20px;
+    height: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
